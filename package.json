@@ -12,18 +12,11 @@
     "watch:server": "nodemon -w server.js server.js -x \"npm run\"",
     "server.js": "npm start",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy" : "npm run build&&gh-pages -d build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Rosuav/full-stack-app.git"
+    "deploy": "npm run build&&gh-pages -d build"
   },
   "author": "Emily Monte Calvo",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Rosuav/full-stack-app/issues"
-  },
-"homepage": "https://emontecalvo.github.io/blogDemo",
+  "homepage": "https://emontecalvo.github.io/blogDemo",
   "dependencies": {
     "babel-cli": "^6.18.0",
     "babel-core": "^6.18.2",
@@ -55,6 +48,7 @@
   },
   "devDependencies": {
     "chokidar-cli": "^1.2.0",
+    "gh-pages": "^0.12.0",
     "nodemon": "^1.11.0",
     "npm-run-all": "^3.1.1",
     "webpack": "^1.13.3"
